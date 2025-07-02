@@ -1,0 +1,77 @@
+/* HomePage.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.main {
+  max-width: 960px;
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 60px;
+  color: #0057b7;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+}
+
+.banner {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.service h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.footer {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  flex-direction: column;
+  justify-content: end;
+}
