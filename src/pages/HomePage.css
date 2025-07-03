@@ -8,18 +8,24 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  padding: 40px 20px;
+  height: 100vh;
 }
 
+.left {
+    flex: 33.3%; /* 1 part */
+    padding: 20px;
+}
+
+.right {
+  flex: 66.6%; /* 2 parts */
+  padding: 20px;
+}
+
+
 .main {
-  max-width: 960px;
+  display: flex;
   width: 100%;
   background-color: #fff;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -68,7 +74,8 @@ body {
 
 .footer {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-size: 14px;
   color: #aaa;
