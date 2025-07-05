@@ -1,0 +1,15 @@
+.aboutSection {
+    padding: var(--spacing-lg);
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: var(--spacing-lg);
+}
+
+.readMore {
+    display: inline-block;
+    margin-top: var(--spacing-md);
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}

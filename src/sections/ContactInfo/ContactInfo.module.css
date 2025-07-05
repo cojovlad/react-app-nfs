@@ -1,0 +1,27 @@
+.contactContainer {
+    padding: var(--spacing-md);
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.infoItem {
+    margin-bottom: var(--spacing-md);
+}
+
+.infoItem h3 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--secondary-color);
+}
+
+.rating {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contactContainer {
+        margin-bottom: var(--spacing-md);
+    }
+}
