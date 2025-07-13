@@ -1,8 +1,10 @@
 import React, { ReactNode } from 'react';
+
+import styles from './Layout.module.css';
+
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import ContactInfo from '../sections/ContactInfo/ContactInfo';
-import styles from './Layout.module.css';
 
 interface MainLayoutProps {
     children: ReactNode;

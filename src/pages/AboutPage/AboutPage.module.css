@@ -1,0 +1,214 @@
+.aboutContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.heroSection {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.heroSection h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #3498db;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contentSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.3rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.card ul {
+    padding-left: 1.2rem;
+    margin: 1rem 0;
+}
+
+.card li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.techStack, .valuesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin: 1.3rem 0;
+}
+
+.techStack > div, .valuesGrid > div {
+    background: #f8f9fa;
+    padding: 0.9rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.techStack h3, .valuesGrid h3 {
+    color: #3498db;
+    margin-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.ctaSection {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    border-radius: 12px;
+    color: white;
+}
+
+.ctaSection h2 {
+    color: white;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    background: #f1c40f;
+    color: #2c3e50;
+    padding: 0.7rem 1.8rem;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+}
+
+.ctaButton:hover {
+    background: #fff;
+    transform: scale(1.05);
+}
+
+.ctaSection p {
+    font-size: 0.95rem;
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .heroSection {
+        padding: 1.5rem 1rem;
+    }
+
+    .heroSection h1 {
+        font-size: 1.6rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .contentSection {
+        gap: 1.2rem;
+    }
+
+    .card {
+        padding: 1.2rem;
+    }
+
+    .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .ctaSection h2 {
+        font-size: 1.3rem;
+    }
+
+    .ctaButton {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutContainer {
+        padding: 0.8rem;
+    }
+
+    .heroSection {
+        padding: 1.2rem 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .heroSection h1 {
+        font-size: 1.4rem;
+    }
+
+    .subtitle {
+        font-size: 0.95rem;
+    }
+
+    .contentSection {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .techStack, .valuesGrid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .ctaSection {
+        padding: 1.2rem 0.8rem;
+    }
+
+    .ctaSection h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .ctaButton {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .ctaSection p {
+        font-size: 0.9rem;
+    }
+}

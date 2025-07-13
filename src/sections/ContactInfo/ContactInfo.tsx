@@ -1,30 +1,32 @@
 import React from 'react';
+
 import styles from './ContactInfo.module.css';
 
 const ContactInfo: React.FC = () => {
     return (
         <div className={styles.contactContainer}>
-            <h2>Contact Information</h2>
+            <h2>Informații de Contact</h2>
 
             <div className={styles.infoItem}>
-                <h3>Location</h3>
-                <p>123 Business Street, City, Country</p>
+                <h3>Locație</h3>
+                <p>str. Ostra, Suceava, România</p>
             </div>
 
             <div className={styles.infoItem}>
-                <h3>Phone</h3>
-                <p>+1 (123) 456-7890</p>
+                <h3>Telefon</h3>
+                <p>+40 (0741)-575-993</p>
+                <p>+40 (0746)-051-962</p>
             </div>
 
             <div className={styles.infoItem}>
                 <h3>Email</h3>
-                <p>contact@firmname.com</p>
+                <p>newfoldersolution.contact@gmail.com</p>
             </div>
 
-            <div className={styles.infoItem}>
-                <h3>Google Reviews</h3>
-                <div className={styles.rating}>★★★★★ (4.9/5)</div>
-            </div>
+            {/*<div className={styles.infoItem}>*/}
+            {/*    <h3>Recenzii Google</h3>*/}
+            {/*    <div className={styles.rating}>★★★★★ (4.9/5)</div>*/}
+            {/*</div>*/}
         </div>
     );
 };

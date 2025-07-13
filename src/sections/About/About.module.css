@@ -1,15 +1,60 @@
 .aboutSection {
-    padding: var(--spacing-lg);
-    background-color: white;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    margin-bottom: var(--spacing-lg);
+    padding: 4rem 2rem;
+    background-color: #f9fbfd;
+    text-align: center;
 }
 
-.readMore {
+.aboutSection h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+    color: #2c3e50;
+}
+
+.aboutCard {
+    background: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: 4px solid #3498db;
+    text-align: left;
+}
+
+.aboutCard p {
+    margin-bottom: 1.2rem;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.aboutCard strong {
+    color: #2c3e50;
+}
+
+.readMoreBtn {
     display: inline-block;
-    margin-top: var(--spacing-md);
-    color: var(--secondary-color);
-    text-decoration: none;
+    background: #3498db;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
     font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.readMoreBtn:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .aboutCard {
+        padding: 1.8rem;
+    }
+
+    .aboutSection {
+        padding: 3rem 1.5rem;
+    }
 }
