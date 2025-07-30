@@ -70,7 +70,7 @@ const ServicesPage: React.FC = () => {
                         </div>
 
                         <div className={styles.ctaContainer}>
-                            <a href="/contact" className={styles.primaryCta}>Solicită Demo</a>
+                            <a href="https://forms.gle/93V4aza89268hZ8MA" className={styles.primaryCta}>Solicită Demo</a>
                         </div>
                     </div>
 
@@ -177,7 +177,7 @@ const ServicesPage: React.FC = () => {
                         </div>
 
                         <div className={styles.ctaContainer}>
-                            <a href="/contact" className={styles.secondaryCta}>Solicită Estimare</a>
+                            <a href="https://forms.gle/93V4aza89268hZ8MA" className={styles.secondaryCta}>Solicită Estimare</a>
                         </div>
                     </div>
                 </section>
@@ -232,7 +232,7 @@ const ServicesPage: React.FC = () => {
                 <section className={styles.contactSection}>
                     <h2>Nu ești sigur ce model ți se potrivește?</h2>
                     <p>Programează o consultație gratuită cu specialistul nostru</p>
-                    <a href="/contact" className={styles.contactCta}>Contactează-ne acum</a>
+                    <a href="https://forms.gle/93V4aza89268hZ8MA" className={styles.contactCta}>Contactează-ne acum</a>
                 </section>
             </div>
         </MainLayout>

@@ -91,7 +91,7 @@ const AboutPage: React.FC = () => {
 
                     <div className={styles.ctaSection}>
                         <h2>Gata pentru un site modern fără investiție inițială?</h2>
-                        <a href="/contact" className={styles.ctaButton}>Solicită Demo Gratuit</a>
+                        <a href="https://forms.gle/93V4aza89268hZ8MA" className={styles.ctaButton}>Solicită Demo Gratuit</a>
                         <p>Transformă online-ul tău în doar 72 de ore cu abonamentul nostru lunar</p>
                     </div>
                 </section>

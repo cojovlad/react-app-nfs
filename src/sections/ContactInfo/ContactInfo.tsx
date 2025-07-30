@@ -14,19 +14,18 @@ const ContactInfo: React.FC = () => {
 
             <div className={styles.infoItem}>
                 <h3>Telefon</h3>
-                <p>+40 (0741)-575-993</p>
-                <p>+40 (0746)-051-962</p>
+                <p>
+                    <a href="tel:+400741575993">+40 (0741)-575-993</a>
+                </p>
+                <p>
+                    <a href="tel:+400746051962">+40 (0746)-051-962</a>
+                </p>
             </div>
 
             <div className={styles.infoItem}>
                 <h3>Email</h3>
-                <p>newfoldersolution.contact@gmail.com</p>
+                <p><a href="mailto:newfoldersolution.contact@gmail.com">newfoldersolution.contact@gmail.com</a></p>
             </div>
-
-            {/*<div className={styles.infoItem}>*/}
-            {/*    <h3>Recenzii Google</h3>*/}
-            {/*    <div className={styles.rating}>★★★★★ (4.9/5)</div>*/}
-            {/*</div>*/}
         </div>
     );
 };

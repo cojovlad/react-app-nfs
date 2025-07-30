@@ -77,6 +77,11 @@
     padding: 1.5rem;
 }
 
+.modelContent ul {
+    padding-left: 1.2rem;
+    margin: 1rem 0;
+}
+
 .modelContent h3 {
     color: #2c3e50;
     border-bottom: 1px solid #ecf0f1;
