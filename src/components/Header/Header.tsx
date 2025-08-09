@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo-1.png';
 
 import styles from './Header.module.css';
 
 const Header: React.FC = () => {
     return (
         <header className={styles.header}>
-            <div className={styles.logo}>New Folder Solution</div>
+            <div>
+                <Link to="/"><img className={styles.logo} src={logo} alt="Home" /></Link>
+            </div>
             <nav>
                 <ul className={styles.navList}>
                     <li><Link to="/">Acasă</Link></li>
