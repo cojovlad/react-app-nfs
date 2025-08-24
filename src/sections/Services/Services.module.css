@@ -38,6 +38,7 @@
 .servicesSection {
     padding: 4rem 2rem;
     background-color: #f9fbfd;
+    border-radius: 0px 0px 20px 20px;
     text-align: center;
 }
 

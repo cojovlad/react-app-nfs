@@ -5,15 +5,15 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--spacing-md);
-    background-color: var(--primary-color);
+    background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: var(--text-light);
     z-index: 1000;
     box-shadow: var(--shadow);
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    width: 15%;
+    height: 5%;
 }
 
 .navList {
