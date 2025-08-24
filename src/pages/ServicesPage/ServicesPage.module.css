@@ -1,0 +1,415 @@
+.servicesPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.pageHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+
+.pageHeader h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.pageHeader p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.modelsSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+    .modelsSection {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.modelCard {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.modelHeader {
+    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    color: white;
+    padding: 1.2rem;
+    position: relative;
+}
+
+.modelCard:nth-child(2) .modelHeader {
+    background: linear-gradient(135deg, #f1c40f 0%, #e67e22 100%);
+}
+
+.modelHeader h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    padding-right: 100px;
+}
+
+.priceTag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+    color: #2c3e50;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modelContent {
+    padding: 1.5rem;
+}
+
+.modelContent ul {
+    padding-left: 1.2rem;
+    margin: 1rem 0;
+}
+
+.modelContent h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.featureGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.8rem;
+    margin: 1.2rem 0;
+}
+
+.featureCard {
+    background: #f8f9fa;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border-left: 3px solid #3498db;
+}
+
+.modelCard:nth-child(2) .featureCard {
+    border-left-color: #f1c40f;
+}
+
+.featureCard h4 {
+    margin: 0 0 0.3rem 0;
+    color: #2c3e50;
+    font-size: 0.95rem;
+}
+
+.featureCard p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 0.85rem;
+}
+
+.processSteps {
+    margin: 1.2rem 0;
+}
+
+.step {
+    display: flex;
+    margin-bottom: 1.2rem;
+    align-items: flex-start;
+}
+
+.stepNumber {
+    background: #3498db;
+    color: white;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-right: 0.8rem;
+    flex-shrink: 0;
+}
+
+.modelCard:nth-child(2) .stepNumber {
+    background: #f1c40f;
+}
+
+.stepContent h4 {
+    margin: 0 0 0.2rem 0;
+    color: #2c3e50;
+    font-size: 0.95rem;
+}
+
+.stepContent p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 0.85rem;
+}
+
+.pricingTable {
+    overflow-x: auto;
+    margin: 1.2rem 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px;
+}
+
+th, td {
+    padding: 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+    font-size: 0.9rem;
+}
+
+th {
+    background: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.ctaContainer {
+    padding: 0 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.primaryCta, .secondaryCta {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 260px;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+}
+
+.primaryCta {
+    background: #3498db;
+    color: white;
+}
+
+.primaryCta:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+.secondaryCta {
+    background: #f1c40f;
+    color: #2c3e50;
+}
+
+.secondaryCta:hover {
+    background: #f39c12;
+    transform: scale(1.05);
+}
+
+.comparisonSection {
+    margin-bottom: 3rem;
+}
+
+.comparisonSection h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.comparisonGrid {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.comparisonGridInner {
+    min-width: 600px;
+}
+
+.comparisonHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.comparisonHeader .headerItem {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.comparisonHeader .headerItem:first-child {
+    background: #2c3e50;
+}
+
+.comparisonRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.comparisonRow:last-child {
+    border-bottom: none;
+}
+
+.rowTitle {
+    padding: 0.8rem;
+    background: #f8f9fa;
+    font-weight: 500;
+    color: #2c3e50;
+    font-size: 0.9rem;
+}
+
+.rowItem {
+    padding: 0.8rem;
+    text-align: center;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.contactSection {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.contactSection h2 {
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.contactSection p {
+    color: #7f8c8d;
+    max-width: 600px;
+    margin: 0 auto 1.2rem;
+    font-size: 0.95rem;
+}
+
+.contactCta {
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.contactCta:hover {
+    background: #3498db;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pageHeader h1 {
+        font-size: 1.8rem;
+    }
+
+    .modelHeader h2 {
+        font-size: 1.3rem;
+        padding-right: 90px;
+    }
+
+    .priceTag {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .comparisonSection h2,
+    .contactSection h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .servicesPage {
+        padding: 0.8rem;
+    }
+
+    .pageHeader {
+        padding: 1rem 0;
+    }
+
+    .pageHeader h1 {
+        font-size: 1.6rem;
+    }
+
+    .modelHeader {
+        padding: 1rem;
+    }
+
+    .modelHeader h2 {
+        font-size: 1.2rem;
+        padding-right: 80px;
+    }
+
+    .priceTag {
+        top: 10px;
+        right: 10px;
+    }
+
+    .modelContent {
+        padding: 1.2rem;
+    }
+
+    .featureGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .ctaContainer {
+        padding: 0 1rem 1rem;
+    }
+
+    .primaryCta, .secondaryCta {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .contactSection {
+        padding: 1.5rem 1rem;
+    }
+
+    .contactSection h2 {
+        font-size: 1.2rem;
+    }
+
+    .contactCta {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
