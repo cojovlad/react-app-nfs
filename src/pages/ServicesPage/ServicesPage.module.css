@@ -57,7 +57,6 @@
 .modelHeader h2 {
     margin: 0;
     font-size: 1.4rem;
-    padding-right: 100px;
 }
 
 .priceTag {
@@ -336,27 +335,6 @@ tr:nth-child(even) {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .pageHeader h1 {
-        font-size: 1.8rem;
-    }
-
-    .modelHeader h2 {
-        font-size: 1.3rem;
-        padding-right: 90px;
-    }
-
-    .priceTag {
-        font-size: 0.8rem;
-        padding: 0.3rem 0.8rem;
-    }
-
-    .comparisonSection h2,
-    .contactSection h2 {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 480px) {
     .servicesPage {
         padding: 0.8rem;
     }
@@ -374,8 +352,8 @@ tr:nth-child(even) {
     }
 
     .modelHeader h2 {
-        font-size: 1.2rem;
-        padding-right: 80px;
+        white-space: nowrap;
+        font-size: clamp(0.7rem, 4vw, 0.75rem);
     }
 
     .priceTag {
@@ -395,17 +373,19 @@ tr:nth-child(even) {
         padding: 0 1rem 1rem;
     }
 
-    .primaryCta, .secondaryCta {
+    .primaryCta,
+    .secondaryCta {
         padding: 0.6rem 1rem;
         font-size: 0.9rem;
     }
 
-    .contactSection {
-        padding: 1.5rem 1rem;
-    }
-
+    .comparisonSection h2,
     .contactSection h2 {
         font-size: 1.2rem;
+    }
+
+    .contactSection {
+        padding: 1.5rem 1rem;
     }
 
     .contactCta {

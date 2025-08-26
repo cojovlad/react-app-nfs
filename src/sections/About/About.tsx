@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
+import {Link} from "react-router-dom";
 
 const About: React.FC = () => {
     return (
@@ -13,9 +14,7 @@ const About: React.FC = () => {
                     Folosim <strong>tehnologii</strong> de ultima generație pentru un <strong>cod curat</strong> și <strong>securizat</strong>.
                 </p>
 
-                <a href="/about" className={styles.readMoreBtn}>
-                    Citește mai mult →
-                </a>
+                <Link to="/about" className={styles.readMoreBtn}  onClick={() => window.scrollTo(0, 0)}>Citește mai mult →</Link>
             </div>
         </section>
     );
