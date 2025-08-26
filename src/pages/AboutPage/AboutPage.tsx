@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
                         <h2>Modelul Inovator</h2>
                         <p>Am dezvoltat un sistem unic care combină:</p>
                         <ul>
-                            <li><strong>Abonamente lunare</strong> (1500 RON/lună) cu tot inclus</li>
+                            <li><strong>Abonamente lunare</strong> (500 RON/lună) cu tot inclus</li>
                             <li><strong>Șabloane inteligente</strong> pentru livrare în 2-3 zile</li>
                             <li><strong>Tehnologii enterprise</strong> (React, AWS Cloud)</li>
                             <li><strong>Suport 24/7</strong> și mentenanță continuă</li>

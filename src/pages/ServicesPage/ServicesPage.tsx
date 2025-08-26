@@ -16,8 +16,7 @@ const ServicesPage: React.FC = () => {
                 <section className={styles.modelsSection}>
                     <div className={styles.modelCard}>
                         <div className={styles.modelHeader}>
-                            <h2>Model A: Abonament Lunar</h2>
-                            <div className={styles.priceTag}>1500 RON/lună</div>
+                            <h2>Model A: Abonament Lunar (500 RON/lună)</h2>
                         </div>
 
                         <div className={styles.modelContent}>
@@ -76,8 +75,7 @@ const ServicesPage: React.FC = () => {
 
                     <div className={styles.modelCard}>
                         <div className={styles.modelHeader}>
-                            <h2>Model B: Proiect Personalizat</h2>
-                            <div className={styles.priceTag}>De la 600 RON/Story Point</div>
+                            <h2>Model B: Proiect Personalizat (600RON/SP)</h2>
                         </div>
 
                         <div className={styles.modelContent}>
